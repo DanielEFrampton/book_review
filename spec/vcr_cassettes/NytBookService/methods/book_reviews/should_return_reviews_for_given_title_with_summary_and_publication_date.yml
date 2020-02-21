@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.nytimes.com/svc/books/v3/reviews.json?api-key=iKpqHY75q3291dfqsBnZA18cGqpi2IYN&title=normal%20people
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 21 Feb 2020 18:12:39 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Accept-Ranges:
+      - bytes
+      Via:
+      - 1.1 varnish
+      Age:
+      - '1190'
+      X-Served-By:
+      - cache-dca17781-DCA
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      X-Timer:
+      - S1582308759.154811,VS0,VE1
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Content-Type, X-Forwarded-For, X-Prototype-Version, X-Requested-With
+      Access-Control-Expose-Headers:
+      - Content-Length, X-JSON
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","copyright":"Copyright (c) 2020 The New York Times Company.  All
+        Rights Reserved.","num_results":2,"results":[{"url":"https:\/\/www.nytimes.com\/2019\/04\/08\/books\/review-normal-people-sally-rooney.html","publication_dt":"2019-04-08","byline":"DWIGHT
+        GARNER","book_title":"Normal People","book_author":"Sally Rooney","summary":"Rooney\u2019s
+        second novel tracks two gifted but troubled teenagers across four years of
+        friendship and occasional romance.","uuid":"00000000-0000-0000-0000-000000000000","uri":"nyt:\/\/book\/00000000-0000-0000-0000-000000000000","isbn13":["9781984822178"]},{"url":"https:\/\/www.nytimes.com\/2019\/04\/15\/books\/review\/normal-people-sally-rooney.html","publication_dt":"2019-04-15","byline":"ANDREW
+        MARTIN","book_title":"Normal People","book_author":"Sally Rooney","summary":"Like
+        \u201cConversations With Friends,\u201d \u201cNormal People\u201d also traces
+        a young romance in Ireland.","uuid":"00000000-0000-0000-0000-000000000000","uri":"nyt:\/\/book\/00000000-0000-0000-0000-000000000000","isbn13":["9780735276475"]}]}'
+    http_version: null
+  recorded_at: Fri, 21 Feb 2020 18:12:39 GMT
+recorded_with: VCR 5.1.0
