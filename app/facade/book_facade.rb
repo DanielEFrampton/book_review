@@ -1,5 +1,5 @@
 class BookFacade
-  attr_reader :title, :author, :genres
+  attr_reader :title, :author, :genres, :reviews
   def initialize(title)
     data = OpenLibraryService.new.book_data(title)
     @title = data[:title]

@@ -2,17 +2,11 @@ require 'rails_helper'
 
 describe 'As a user', :vcr do
   describe 'When I visit "/"' do
-    before(:each) do
-      visit '/'
-    end
-
     describe 'And I input "the man who saw everything" into the form' do
-      before(:each) do
-        fill_in "Enter Book Title", with: "the man who saw everything"
-      end
-
       describe 'And I click "Find Book"' do
         before(:each) do
+          visit '/'
+          fill_in "Enter Book Title", with: "the man who saw everything"
           click_on "Find Book"
         end
 
