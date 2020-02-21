@@ -5,6 +5,13 @@ class BookFacade
     @title = data[:title]
     @author = data[:author]
     @genres = data[:genres]
-    @reviews = NytBookService.new.book_reviews(title)
+    @reviews = generate_reviews(title)
+  end
+
+  def generate_reviews(title)
+    review_data = NytBookService.new.book_reviews(title)
+    review_data.map do |review|
+      Review.new(review)
+    end
   end
 end
