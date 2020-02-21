@@ -1,0 +1,16 @@
+<section class='info'>
+  <p>
+    Title: <%= @book.title %><br />
+    Author: <%= @book.title %><br />
+    Genres: <%= @book.genres %><br />
+  </p>
+</section>
+
+<section class='reviews'>
+  <% @book.reviews.each do |review| %>
+    <p id="review-<%= review.number %>">
+      Review <%= review.number %>: <%= review.summary %><br />
+      Review Publication Date: <%= review.pub_date %>
+    </p>
+  <% end %>
+<section>
