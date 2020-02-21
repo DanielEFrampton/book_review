@@ -1,0 +1,3258 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openlibrary.org/search.json?title=normal%20people
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Fri, 21 Feb 2020 18:22:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"SR 1 0.166 TT 0 0.187"'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+         "start": 0,
+         "num_found": 43,
+         "numFound": 43,
+         "docs": [
+          {
+           "title_suggest": "Normal People",
+           "edition_key": [
+            "OL27735764M",
+            "OL27735763M",
+            "OL27735765M",
+            "OL27735762M",
+            "OL27735761M",
+            "OL27330017M"
+           ],
+           "cover_i": 8794265,
+           "isbn": [
+            "9781984822178",
+            "0571334652",
+            "0571334644",
+            "9780735276475",
+            "9780593168202",
+            "0735276471",
+            "0571347290",
+            "9780571334643",
+            "9780571334650",
+            "0593168208",
+            "1984822179",
+            "9780571347292"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL27735764M",
+            "OL27735763M",
+            "OL27735765M",
+            "OL27735762M",
+            "OL27735761M",
+            "OL27330017M",
+            "9781984822178",
+            "0571334652",
+            "0571334644",
+            "9780735276475",
+            "9780593168202",
+            "0735276471",
+            "0571347290",
+            "9780571334643",
+            "9780571334650",
+            "0593168208",
+            "1984822179",
+            "9780571347292",
+            "Sally Rooney",
+            "OL7615842A",
+            "A Novel",
+            "Normal People",
+            "/works/OL20150260W",
+            "Faber & Faber",
+            "Hogarth",
+            "Random House Large Print",
+            "Knopf Canada"
+           ],
+           "author_name": [
+            "Sally Rooney"
+           ],
+           "seed": [
+            "/books/OL27735764M",
+            "/books/OL27735763M",
+            "/books/OL27735765M",
+            "/books/OL27735762M",
+            "/books/OL27735761M",
+            "/books/OL27330017M",
+            "/works/OL20150260W",
+            "/authors/OL7615842A"
+           ],
+           "author_key": [
+            "OL7615842A"
+           ],
+           "title": "Normal People",
+           "publish_date": [
+            "Apr 16, 2019",
+            "May 02, 2019",
+            "2019",
+            "2018",
+            "Jun 11, 2019"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "edition_count": 6,
+           "key": "/works/OL20150260W",
+           "publisher": [
+            "Faber & Faber",
+            "Hogarth",
+            "Random House Large Print",
+            "Knopf Canada"
+           ],
+           "id_amazon": [
+            "0735276471",
+            "0571347290",
+            "0571334644",
+            "0593168208",
+            "0571334652",
+            "1984822179"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1575064623,
+           "cover_edition_key": "OL27330017M",
+           "publish_year": [
+            2019,
+            2018
+           ],
+           "first_publish_year": 2018
+          },
+          {
+           "title_suggest": "Normal people",
+           "publisher": [
+            "Sally Rooney"
+           ],
+           "has_fulltext": false,
+           "edition_count": 1,
+           "edition_key": [
+            "OL27856861M"
+           ],
+           "last_modified_i": 1577383455,
+           "title": "Normal people",
+           "seed": [
+            "/books/OL27856861M",
+            "/works/OL20605673W"
+           ],
+           "first_publish_year": 2019,
+           "publish_year": [
+            2019
+           ],
+           "key": "/works/OL20605673W",
+           "text": [
+            "OL27856861M",
+            "Normal people",
+            "/works/OL20605673W",
+            "Sally Rooney"
+           ],
+           "publish_date": [
+            "2019"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Emotions of normal people",
+           "edition_key": [
+            "OL6721761M",
+            "OL13968575M",
+            "OL4429297M",
+            "OL16645081M",
+            "OL11678907M"
+           ],
+           "cover_i": 2754862,
+           "isbn": [
+            "1406701165",
+            "9781406701166"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6721761M",
+            "OL13968575M",
+            "OL4429297M",
+            "OL16645081M",
+            "OL11678907M",
+            "1406701165",
+            "9781406701166",
+            "William Moulton Marston",
+            "1457902",
+            "OL300416A",
+            "Emotions of normal people",
+            "by William Moulton Marston ...",
+            "by William Moulton Marston.",
+            "by William Moulton Marston ; introd. by John G. Geier.",
+            "Psychophysiology",
+            "Emotions",
+            "/works/OL2286509W",
+            "Routledge",
+            "Persona Press",
+            "Harcourt, Brace and Company",
+            "Cooper Press",
+            "K. Paul, Trench, Trubner & Co. ltd.",
+            "Kegan Paul",
+            "Emotions Of Normal People",
+            "79055752",
+            "28027972"
+           ],
+           "author_name": [
+            "William Moulton Marston"
+           ],
+           "seed": [
+            "/books/OL6721761M",
+            "/books/OL13968575M",
+            "/books/OL4429297M",
+            "/books/OL16645081M",
+            "/books/OL11678907M",
+            "/works/OL2286509W",
+            "/subjects/psychophysiology",
+            "/subjects/emotions",
+            "/authors/OL300416A"
+           ],
+           "oclc": [
+            "1457902"
+           ],
+           "author_key": [
+            "OL300416A"
+           ],
+           "subject": [
+            "Psychophysiology",
+            "Emotions"
+           ],
+           "title": "Emotions of normal people",
+           "publish_date": [
+            "1928",
+            "1999",
+            "March 15, 2007",
+            "1979"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "New York",
+            "London",
+            "Minneapolis"
+           ],
+           "edition_count": 5,
+           "key": "/works/OL2286509W",
+           "id_goodreads": [
+            "3266948"
+           ],
+           "publisher": [
+            "Routledge",
+            "Persona Press",
+            "Harcourt, Brace and Company",
+            "Cooper Press",
+            "K. Paul, Trench, Trubner & Co. ltd.",
+            "Kegan Paul"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "79055752",
+            "28027972"
+           ],
+           "last_modified_i": 1272442379,
+           "cover_edition_key": "OL11678907M",
+           "publish_year": [
+            1928,
+            1999,
+            2007,
+            1979
+           ],
+           "first_publish_year": 1928
+          },
+          {
+           "title_suggest": "Like normal people",
+           "edition_key": [
+            "OL6788126M",
+            "OL51037M",
+            "OL18529114M",
+            "OL20320200M"
+           ],
+           "cover_i": 1464146,
+           "isbn": [
+            "0395945151",
+            "9780783893013",
+            "0330373803",
+            "9780395945155",
+            "9780330373807",
+            "0783893019",
+            "9780330373791",
+            "033037379X"
+           ],
+           "has_fulltext": true,
+           "text": [
+            "OL6788126M",
+            "OL51037M",
+            "OL18529114M",
+            "OL20320200M",
+            "0395945151",
+            "9780783893013",
+            "0330373803",
+            "9780395945155",
+            "9780330373807",
+            "0783893019",
+            "9780330373791",
+            "033037379X",
+            "Karen E. Bender",
+            "45325660",
+            "42733644",
+            "44979641",
+            "likenormalpeople00bend_0",
+            "likenormalpeople00bend",
+            "OL33514A",
+            "Accessible book",
+            "Protected DAISY",
+            "Fiction",
+            "Mothers and daughters",
+            "Missing persons",
+            "Women with mental disabilities",
+            "Like normal people",
+            "/works/OL504808W",
+            "Karen E. Bender.",
+            "G.K. Hall",
+            "Picador",
+            "Houghton Mifflin",
+            "99056112",
+            "00046112",
+            "Southern California"
+           ],
+           "author_name": [
+            "Karen E. Bender"
+           ],
+           "ia_loaded_id": [
+            "likenormalpeople00bend"
+           ],
+           "seed": [
+            "/books/OL6788126M",
+            "/books/OL51037M",
+            "/books/OL18529114M",
+            "/books/OL20320200M",
+            "/works/OL504808W",
+            "/subjects/fiction",
+            "/subjects/mothers_and_daughters",
+            "/subjects/missing_persons",
+            "/subjects/women_with_mental_disabilities",
+            "/subjects/place:southern_california",
+            "/authors/OL33514A"
+           ],
+           "oclc": [
+            "45325660",
+            "42733644",
+            "44979641"
+           ],
+           "ia": [
+            "likenormalpeople00bend_0",
+            "likenormalpeople00bend"
+           ],
+           "author_key": [
+            "OL33514A"
+           ],
+           "subject": [
+            "Accessible book",
+            "Protected DAISY",
+            "Fiction",
+            "Mothers and daughters",
+            "Missing persons",
+            "Women with mental disabilities"
+           ],
+           "title": "Like normal people",
+           "lending_identifier_s": "likenormalpeople00bend_0",
+           "ia_collection_s": "printdisabled;internetarchivebooks;inlibrary;china",
+           "printdisabled_s": "OL6788126M;OL51037M",
+           "type": "work",
+           "ebook_count_i": 2,
+           "publish_place": [
+            "Boston",
+            "London",
+            "Thorndike, Me"
+           ],
+           "ia_box_id": [
+            "IA140211",
+            "IA1129403"
+           ],
+           "edition_count": 4,
+           "first_publish_year": 2000,
+           "key": "/works/OL504808W",
+           "id_goodreads": [
+            "4243344",
+            "1194479",
+            "576457",
+            "576456"
+           ],
+           "public_scan_b": false,
+           "publisher": [
+            "G.K. Hall",
+            "Picador",
+            "Houghton Mifflin"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "99056112",
+            "00046112"
+           ],
+           "last_modified_i": 1581582968,
+           "lending_edition_s": "OL6788126M",
+           "id_librarything": [
+            "281934"
+           ],
+           "cover_edition_key": "OL6788126M",
+           "publish_year": [
+            2000,
+            2001
+           ],
+           "publish_date": [
+            "2000",
+            "2001"
+           ],
+           "place": [
+            "Southern California"
+           ]
+          },
+          {
+           "title_suggest": "Psycho-analysis for normal people",
+           "edition_key": [
+            "OL13757370M",
+            "OL20067976M",
+            "OL6695515M",
+            "OL13969177M",
+            "OL14866113M",
+            "OL6514183M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL13757370M",
+            "OL20067976M",
+            "OL6695515M",
+            "OL13969177M",
+            "OL14866113M",
+            "OL6514183M",
+            "Coster, Geraldine.",
+            "3823805",
+            "3756674",
+            "OL2317419A",
+            "Psycho-analysis for normal people",
+            "by Geraldine Coster.",
+            "Psychoanalysis",
+            "/works/OL7568312W",
+            "Univ. Press",
+            "Oxford University Press, H. Milford",
+            "Oxford University Press",
+            "Oxford Univ. Press",
+            "Psycho-analysis for normal people.",
+            "47006829",
+            "26022098"
+           ],
+           "author_name": [
+            "Coster, Geraldine."
+           ],
+           "seed": [
+            "/books/OL13757370M",
+            "/books/OL20067976M",
+            "/books/OL6695515M",
+            "/books/OL13969177M",
+            "/books/OL14866113M",
+            "/books/OL6514183M",
+            "/works/OL7568312W",
+            "/subjects/psychoanalysis",
+            "/authors/OL2317419A"
+           ],
+           "oclc": [
+            "3823805",
+            "3756674"
+           ],
+           "author_key": [
+            "OL2317419A"
+           ],
+           "subject": [
+            "Psychoanalysis"
+           ],
+           "title": "Psycho-analysis for normal people",
+           "publish_date": [
+            "1929",
+            "1939",
+            "1947",
+            "1926"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Oxford",
+            "New York",
+            "London"
+           ],
+           "edition_count": 6,
+           "key": "/works/OL7568312W",
+           "publisher": [
+            "Univ. Press",
+            "Oxford University Press, H. Milford",
+            "Oxford University Press",
+            "Oxford Univ. Press"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "47006829",
+            "26022098"
+           ],
+           "last_modified_i": 1291382034,
+           "publish_year": [
+            1929,
+            1939,
+            1947,
+            1926
+           ],
+           "first_publish_year": 1926
+          },
+          {
+           "title_suggest": "Emotions of normal people",
+           "edition_key": [
+            "OL15202738M",
+            "OL27558819M"
+           ],
+           "isbn": [
+            "1138882577",
+            "1871482011",
+            "9781871482010",
+            "9781138882577"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL15202738M",
+            "OL27558819M",
+            "1138882577",
+            "1871482011",
+            "9781871482010",
+            "9781138882577",
+            "William Moulton Marston",
+            "Lyster, Ian.",
+            "19264178",
+            "OL4816266A",
+            "Psychometrics",
+            "Emotions of normal people",
+            "/works/OL11448767W",
+            "by William Moulton Marston ; with a new introduction by S. H. Irvine ; editor: Ian Lyster.",
+            "Routledge",
+            "Lyster",
+            "Emotions Of Normal People"
+           ],
+           "author_name": [
+            "William Moulton Marston"
+           ],
+           "seed": [
+            "/books/OL15202738M",
+            "/books/OL27558819M",
+            "/works/OL11448767W",
+            "/subjects/psychometrics",
+            "/authors/OL4816266A"
+           ],
+           "oclc": [
+            "19264178"
+           ],
+           "contributor": [
+            "Lyster, Ian."
+           ],
+           "author_key": [
+            "OL4816266A"
+           ],
+           "subject": [
+            "Psychometrics"
+           ],
+           "title": "Emotions of normal people",
+           "publish_date": [
+            "Dec 03, 2014",
+            "1989"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Ormskirk"
+           ],
+           "edition_count": 2,
+           "key": "/works/OL11448767W",
+           "publisher": [
+            "Routledge",
+            "Lyster"
+           ],
+           "id_amazon": [
+            "1138882577"
+           ],
+           "language": [
+            "por"
+           ],
+           "last_modified_i": 1572049886,
+           "cover_edition_key": "OL27558819M",
+           "publish_year": [
+            2014,
+            1989
+           ],
+           "first_publish_year": 1989
+          },
+          {
+           "title_suggest": "Pilots and Normal People",
+           "edition_key": [
+            "OL9822288M"
+           ],
+           "cover_i": 1716157,
+           "isbn": [
+            "097465535X",
+            "9780974655352"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL9822288M",
+            "097465535X",
+            "9780974655352",
+            "Walt Shiel",
+            "71313011",
+            "OL461565A",
+            "Pilots and Normal People",
+            "/works/OL3006398W",
+            "Slipdown Mountain Publications LLC",
+            "Pete eased down out of his old Ford van."
+           ],
+           "author_name": [
+            "Walt Shiel"
+           ],
+           "seed": [
+            "/books/OL9822288M",
+            "/works/OL3006398W",
+            "/authors/OL461565A"
+           ],
+           "oclc": [
+            "71313011"
+           ],
+           "author_key": [
+            "OL461565A"
+           ],
+           "title": "Pilots and Normal People",
+           "publish_date": [
+            "June 10, 2005"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "edition_count": 1,
+           "key": "/works/OL3006398W",
+           "id_goodreads": [
+            "6559400"
+           ],
+           "publisher": [
+            "Slipdown Mountain Publications LLC"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1304087276,
+           "id_librarything": [
+            "6273999"
+           ],
+           "cover_edition_key": "OL9822288M",
+           "first_sentence": [
+            "Pete eased down out of his old Ford van."
+           ],
+           "publish_year": [
+            2005
+           ],
+           "first_publish_year": 2005
+          },
+          {
+           "title_suggest": "Emotions of Normal People",
+           "edition_key": [
+            "OL7486686M"
+           ],
+           "cover_i": 265607,
+           "isbn": [
+            "0415210763",
+            "9780415210768"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL7486686M",
+            "0415210763",
+            "9780415210768",
+            "WILLIA MARSTON",
+            "OL2695680A",
+            "Emotions of Normal People",
+            "/works/OL8095621W",
+            "Routledge"
+           ],
+           "author_name": [
+            "WILLIA MARSTON"
+           ],
+           "seed": [
+            "/books/OL7486686M",
+            "/works/OL8095621W",
+            "/authors/OL2695680A"
+           ],
+           "author_key": [
+            "OL2695680A"
+           ],
+           "title": "Emotions of Normal People",
+           "publish_date": [
+            "July 1999"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "edition_count": 1,
+           "key": "/works/OL8095621W",
+           "id_goodreads": [
+            "5643143"
+           ],
+           "publisher": [
+            "Routledge"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1293581984,
+           "id_librarything": [
+            "586558"
+           ],
+           "cover_edition_key": "OL7486686M",
+           "publish_year": [
+            1999
+           ],
+           "first_publish_year": 1999
+          },
+          {
+           "title_suggest": "Otherwise Normal People",
+           "edition_key": [
+            "OL8664243M"
+           ],
+           "cover_i": 1900380,
+           "isbn": [
+            "1565124642",
+            "9781565124646"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL8664243M",
+            "1565124642",
+            "9781565124646",
+            "Aurelia Scott",
+            "71044703",
+            "OL3056561A",
+            "Inside the Thorny World of Competitive Rose Gardening",
+            "Otherwise Normal People",
+            "/works/OL8884502W",
+            "Algonquin Books"
+           ],
+           "author_name": [
+            "Aurelia Scott"
+           ],
+           "seed": [
+            "/books/OL8664243M",
+            "/works/OL8884502W",
+            "/authors/OL3056561A"
+           ],
+           "oclc": [
+            "71044703"
+           ],
+           "author_key": [
+            "OL3056561A"
+           ],
+           "title": "Otherwise Normal People",
+           "publish_date": [
+            "May 18, 2007"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "edition_count": 1,
+           "key": "/works/OL8884502W",
+           "id_goodreads": [
+            "222539"
+           ],
+           "publisher": [
+            "Algonquin Books"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1303987823,
+           "id_librarything": [
+            "3140213"
+           ],
+           "cover_edition_key": "OL8664243M",
+           "publish_year": [
+            2007
+           ],
+           "first_publish_year": 2007
+          },
+          {
+           "title_suggest": "Like normal people",
+           "edition_key": [
+            "OL4722048M"
+           ],
+           "cover_i": 6917250,
+           "isbn": [
+            "9780070417618",
+            "007041761X"
+           ],
+           "has_fulltext": true,
+           "text": [
+            "OL4722048M",
+            "9780070417618",
+            "007041761X",
+            "Robert Meyers",
+            "3913122",
+            "likenormalpeople00meye",
+            "OL1344461A",
+            "Like normal people",
+            "Accessible book",
+            "People with mental disabilities",
+            "Marriage",
+            "Protected DAISY",
+            "Family relationships",
+            "Biography",
+            "/works/OL5588009W",
+            "Robert Meyers.",
+            "McGraw-Hill",
+            "78009347",
+            "Roger Meyers (1948-)",
+            "Virginia Meyers (1951-)",
+            "United States"
+           ],
+           "author_name": [
+            "Robert Meyers"
+           ],
+           "seed": [
+            "/books/OL4722048M",
+            "/works/OL5588009W",
+            "/subjects/biography",
+            "/subjects/family_relationships",
+            "/subjects/marriage",
+            "/subjects/people_with_mental_disabilities",
+            "/subjects/protected_daisy",
+            "/subjects/person:roger_meyers_(1948-)",
+            "/subjects/person:virginia_meyers_(1951-)",
+            "/subjects/place:united_states",
+            "/authors/OL1344461A"
+           ],
+           "oclc": [
+            "3913122"
+           ],
+           "ia": [
+            "likenormalpeople00meye"
+           ],
+           "author_key": [
+            "OL1344461A"
+           ],
+           "subject": [
+            "Accessible book",
+            "People with mental disabilities",
+            "Marriage",
+            "Protected DAISY",
+            "Family relationships",
+            "Biography"
+           ],
+           "title": "Like normal people",
+           "ia_collection_s": "printdisabled;americana;internetarchivebooks",
+           "first_publish_year": 1978,
+           "type": "work",
+           "ebook_count_i": 1,
+           "publish_place": [
+            "New York"
+           ],
+           "printdisabled_s": "OL4722048M",
+           "ia_box_id": [
+            "IA122608"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL5588009W",
+           "id_goodreads": [
+            "3266950"
+           ],
+           "public_scan_b": false,
+           "publisher": [
+            "McGraw-Hill"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "78009347"
+           ],
+           "last_modified_i": 1318467124,
+           "id_librarything": [
+            "1406712"
+           ],
+           "cover_edition_key": "OL4722048M",
+           "person": [
+            "Roger Meyers (1948-)",
+            "Virginia Meyers (1951-)"
+           ],
+           "publish_year": [
+            1978
+           ],
+           "publish_date": [
+            "1978"
+           ],
+           "place": [
+            "United States"
+           ]
+          },
+          {
+           "title_suggest": "Evangelism for \"normal\" people",
+           "edition_key": [
+            "OL3325409M"
+           ],
+           "cover_i": 586112,
+           "isbn": [
+            "0806641916",
+            "9780806641911"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL3325409M",
+            "0806641916",
+            "9780806641911",
+            "John P. Bowen",
+            "50493411",
+            "OL1400204A",
+            "good news for those looking for a fresh approach",
+            "Evangelism for \"normal\" people",
+            "John P. Bowen.",
+            "Evangelistic work",
+            "Witness bearing (Christianity)",
+            "/works/OL5754992W",
+            "Augsburg Fortress",
+            "2004298876"
+           ],
+           "author_name": [
+            "John P. Bowen"
+           ],
+           "seed": [
+            "/books/OL3325409M",
+            "/works/OL5754992W",
+            "/subjects/evangelistic_work",
+            "/subjects/witness_bearing_(christianity)",
+            "/authors/OL1400204A"
+           ],
+           "oclc": [
+            "50493411"
+           ],
+           "author_key": [
+            "OL1400204A"
+           ],
+           "subject": [
+            "Evangelistic work",
+            "Witness bearing (Christianity)"
+           ],
+           "title": "Evangelism for \"normal\" people",
+           "publish_date": [
+            "2002"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Minneapolis, MN"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL5754992W",
+           "id_goodreads": [
+            "222559"
+           ],
+           "publisher": [
+            "Augsburg Fortress"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "2004298876"
+           ],
+           "last_modified_i": 1291507668,
+           "id_librarything": [
+            "213131"
+           ],
+           "cover_edition_key": "OL3325409M",
+           "publish_year": [
+            2002
+           ],
+           "first_publish_year": 2002
+          },
+          {
+           "title_suggest": "Like normal people",
+           "edition_key": [
+            "OL26341536M"
+           ],
+           "cover_i": 8023083,
+           "isbn": [
+            "9780618126927",
+            "0618126929"
+           ],
+           "has_fulltext": true,
+           "text": [
+            "OL26341536M",
+            "9780618126927",
+            "0618126929",
+            "Karen E. Bender",
+            "48060203",
+            "likenormalpeople00kare",
+            "OL33514A",
+            "Accessible book",
+            "Protected DAISY",
+            "Fiction",
+            "Mothers and daughters",
+            "Missing persons",
+            "Women with mental disabilities",
+            "Like normal people",
+            "/works/OL17742837W",
+            "Karen E. Bender",
+            "Houghton Mifflin",
+            "Southern California"
+           ],
+           "author_name": [
+            "Karen E. Bender"
+           ],
+           "seed": [
+            "/books/OL26341536M",
+            "/works/OL17742837W",
+            "/subjects/fiction",
+            "/subjects/missing_persons",
+            "/subjects/women_with_mental_disabilities",
+            "/subjects/mothers_and_daughters",
+            "/subjects/place:southern_california",
+            "/authors/OL33514A"
+           ],
+           "oclc": [
+            "48060203"
+           ],
+           "ia": [
+            "likenormalpeople00kare"
+           ],
+           "author_key": [
+            "OL33514A"
+           ],
+           "subject": [
+            "Accessible book",
+            "Protected DAISY",
+            "Fiction",
+            "Mothers and daughters",
+            "Missing persons",
+            "Women with mental disabilities"
+           ],
+           "title": "Like normal people",
+           "lending_identifier_s": "likenormalpeople00kare",
+           "ia_collection_s": "printdisabled;browserlending;china;inlibrary;internetarchivebooks",
+           "printdisabled_s": "OL26341536M",
+           "type": "work",
+           "ebook_count_i": 1,
+           "publish_place": [
+            "Boston",
+            "New York"
+           ],
+           "ia_box_id": [
+            "IA156921"
+           ],
+           "edition_count": 1,
+           "first_publish_year": 2001,
+           "key": "/works/OL17742837W",
+           "public_scan_b": false,
+           "publisher": [
+            "Houghton Mifflin"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1498329102,
+           "lending_edition_s": "OL26341536M",
+           "cover_edition_key": "OL26341536M",
+           "publish_year": [
+            2001
+           ],
+           "publish_date": [
+            "2001"
+           ],
+           "place": [
+            "Southern California"
+           ]
+          },
+          {
+           "title_suggest": "Finance for normal people",
+           "edition_key": [
+            "OL27236222M"
+           ],
+           "isbn": [
+            "9780190626471",
+            "019062647X"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "oclc": [
+            "969153555"
+           ],
+           "last_modified_i": 1563579117,
+           "title": "Finance for normal people",
+           "subject": [
+            "Personal Finance",
+            "Economics",
+            "Psychological aspects"
+           ],
+           "author_name": [
+            "Meir Statman"
+           ],
+           "lccn": [
+            "2016041676"
+           ],
+           "seed": [
+            "/books/OL27236222M",
+            "/works/OL20056209W",
+            "/subjects/personal_finance",
+            "/subjects/economics",
+            "/subjects/psychological_aspects",
+            "/authors/OL1345275A"
+           ],
+           "first_publish_year": 2017,
+           "publish_year": [
+            2017
+           ],
+           "key": "/works/OL20056209W",
+           "text": [
+            "OL27236222M",
+            "9780190626471",
+            "019062647X",
+            "Meir Statman",
+            "969153555",
+            "OL1345275A",
+            "Personal Finance",
+            "Economics",
+            "Psychological aspects",
+            "how investors and markets behave",
+            "Finance for normal people",
+            "/works/OL20056209W",
+            "Meir Statman",
+            "2016041676"
+           ],
+           "publish_date": [
+            "2017"
+           ],
+           "author_key": [
+            "OL1345275A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Otherwise normal people",
+           "edition_key": [
+            "OL23277843M"
+           ],
+           "cover_i": 6640984,
+           "isbn": [
+            "1565124642",
+            "9781565124646"
+           ],
+           "has_fulltext": true,
+           "text": [
+            "OL23277843M",
+            "1565124642",
+            "9781565124646",
+            "Aurelia C. Scott",
+            "71044703",
+            "otherwisenormalp00scot",
+            "OL6628069A",
+            "Rose breeders",
+            "Rose culture",
+            "Accessible book",
+            "Anecdotes",
+            "Roses",
+            "Protected DAISY",
+            "Breeding",
+            "Biography",
+            "inside the thorny world of competitive rose gardening",
+            "Otherwise normal people",
+            "/works/OL13787493W",
+            "Aurelia C. Scott.",
+            "Algonquin Books of Chapel Hill",
+            "2006027489",
+            "Aurelia C. Scott",
+            "United States"
+           ],
+           "author_name": [
+            "Aurelia C. Scott"
+           ],
+           "seed": [
+            "/books/OL23277843M",
+            "/works/OL13787493W",
+            "/subjects/rose_breeders",
+            "/subjects/anecdotes",
+            "/subjects/rose_culture",
+            "/subjects/roses",
+            "/subjects/breeding",
+            "/subjects/biography",
+            "/subjects/person:aurelia_c._scott",
+            "/subjects/place:united_states",
+            "/authors/OL6628069A"
+           ],
+           "oclc": [
+            "71044703"
+           ],
+           "ia": [
+            "otherwisenormalp00scot"
+           ],
+           "author_key": [
+            "OL6628069A"
+           ],
+           "subject": [
+            "Rose breeders",
+            "Rose culture",
+            "Accessible book",
+            "Anecdotes",
+            "Roses",
+            "Protected DAISY",
+            "Breeding",
+            "Biography"
+           ],
+           "title": "Otherwise normal people",
+           "lending_identifier_s": "otherwisenormalp00scot",
+           "ia_collection_s": "printdisabled;inlibrary;americana;internetarchivebooks",
+           "printdisabled_s": "OL23277843M",
+           "type": "work",
+           "ebook_count_i": 1,
+           "publish_place": [
+            "Chapel Hill, N.C"
+           ],
+           "ia_box_id": [
+            "IA126518"
+           ],
+           "edition_count": 1,
+           "first_publish_year": 2007,
+           "key": "/works/OL13787493W",
+           "id_goodreads": [
+            "222539"
+           ],
+           "public_scan_b": false,
+           "publisher": [
+            "Algonquin Books of Chapel Hill"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "2006027489"
+           ],
+           "last_modified_i": 1581601750,
+           "lending_edition_s": "OL23277843M",
+           "id_librarything": [
+            "3140213"
+           ],
+           "cover_edition_key": "OL23277843M",
+           "person": [
+            "Aurelia C. Scott"
+           ],
+           "publish_year": [
+            2007
+           ],
+           "publish_date": [
+            "2007"
+           ],
+           "place": [
+            "United States"
+           ]
+          },
+          {
+           "title_suggest": "Psycho-analysis for normal people",
+           "publish_place": [
+            "London"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 2,
+           "edition_key": [
+            "OL17870409M",
+            "OL14576383M"
+           ],
+           "last_modified_i": 1265391653,
+           "title": "Psycho-analysis for normal people",
+           "subject": [
+            "Psychoanalysis"
+           ],
+           "author_name": [
+            "Geraldine Coster"
+           ],
+           "seed": [
+            "/books/OL17870409M",
+            "/books/OL14576383M",
+            "/works/OL2604182W",
+            "/subjects/psychoanalysis",
+            "/authors/OL376355A"
+           ],
+           "first_publish_year": 1932,
+           "publish_year": [
+            1932
+           ],
+           "key": "/works/OL2604182W",
+           "text": [
+            "OL17870409M",
+            "OL14576383M",
+            "Geraldine Coster",
+            "OL376355A",
+            "Psycho-analysis for normal people",
+            "Psychoanalysis",
+            "/works/OL2604182W",
+            "Oxford University Press"
+           ],
+           "publisher": [
+            "Oxford University Press"
+           ],
+           "publish_date": [
+            "1932"
+           ],
+           "author_key": [
+            "OL376355A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The psychology of normal people",
+           "publish_place": [
+            "Boston,Mass"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 2,
+           "edition_key": [
+            "OL13968786M",
+            "OL14546537M"
+           ],
+           "last_modified_i": 1260843141,
+           "title": "The psychology of normal people",
+           "publisher": [
+            "Heath"
+           ],
+           "author_name": [
+            "Joseph Tiffin"
+           ],
+           "seed": [
+            "/books/OL13968786M",
+            "/books/OL14546537M",
+            "/works/OL10419550W",
+            "/authors/OL4325215A"
+           ],
+           "first_publish_year": 1940,
+           "publish_year": [
+            1940,
+            1946
+           ],
+           "key": "/works/OL10419550W",
+           "text": [
+            "OL13968786M",
+            "OL14546537M",
+            "Joseph Tiffin",
+            "OL4325215A",
+            "The psychology of normal people",
+            "[by] Joseph Tiffin and Frederic B. Knight [and] Charles Conant Josey.",
+            "/works/OL10419550W",
+            "Heath",
+            "Psychology of normal people."
+           ],
+           "publish_date": [
+            "1940",
+            "1946"
+           ],
+           "author_key": [
+            "OL4325215A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The War on Normal People",
+           "publisher": [
+            "Hachette Book Group and Blackstone Publishing",
+            "Hachette Books"
+           ],
+           "cover_i": 8804463,
+           "id_amazon": [
+            "1549172131",
+            "0316414212"
+           ],
+           "isbn": [
+            "9780316414210",
+            "0316414212",
+            "9781549172137",
+            "1549172131"
+           ],
+           "has_fulltext": false,
+           "title": "The War on Normal People",
+           "edition_key": [
+            "OL27820615M",
+            "OL27340384M"
+           ],
+           "last_modified_i": 1576623229,
+           "edition_count": 2,
+           "author_name": [
+            "Andrew Yang"
+           ],
+           "cover_edition_key": "OL27340384M",
+           "seed": [
+            "/books/OL27820615M",
+            "/books/OL27340384M",
+            "/works/OL20159244W",
+            "/authors/OL3707940A"
+           ],
+           "first_publish_year": 2018,
+           "publish_year": [
+            2019,
+            2018
+           ],
+           "key": "/works/OL20159244W",
+           "text": [
+            "OL27820615M",
+            "OL27340384M",
+            "9780316414210",
+            "0316414212",
+            "9781549172137",
+            "1549172131",
+            "Andrew Yang",
+            "OL3707940A",
+            "The Truth About America's Disappearing Jobs and Why Universal Basic Income Is Our Future",
+            "The War on Normal People",
+            "/works/OL20159244W",
+            "Hachette Book Group and Blackstone Publishing",
+            "Hachette Books"
+           ],
+           "publish_date": [
+            "Apr 02, 2019",
+            "Apr 03, 2018"
+           ],
+           "author_key": [
+            "OL3707940A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Like Normal People (Human Horizons)",
+           "publisher": [
+            "Souvenir Press Ltd"
+           ],
+           "isbn": [
+            "9780285648906",
+            "028564890X"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL9556453M"
+           ],
+           "last_modified_i": 1272130914,
+           "title": "Like Normal People (Human Horizons)",
+           "author_name": [
+            "Robert Meyers"
+           ],
+           "seed": [
+            "/books/OL9556453M",
+            "/works/OL5588010W",
+            "/authors/OL1344461A"
+           ],
+           "first_publish_year": 1979,
+           "publish_year": [
+            1979
+           ],
+           "key": "/works/OL5588010W",
+           "text": [
+            "OL9556453M",
+            "9780285648906",
+            "028564890X",
+            "Robert Meyers",
+            "OL1344461A",
+            "Like Normal People (Human Horizons)",
+            "/works/OL5588010W",
+            "Souvenir Press Ltd"
+           ],
+           "id_goodreads": [
+            "6525453"
+           ],
+           "publish_date": [
+            "November 8, 1979"
+           ],
+           "author_key": [
+            "OL1344461A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Psycho-analysis for normal people",
+           "publisher": [
+            "O.U.P."
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL20361228M"
+           ],
+           "last_modified_i": 1260860180,
+           "title": "Psycho-analysis for normal people",
+           "author_name": [
+            "G. Coster"
+           ],
+           "seed": [
+            "/books/OL20361228M",
+            "/works/OL9257967W",
+            "/authors/OL3313440A"
+           ],
+           "first_publish_year": 1932,
+           "publish_year": [
+            1932
+           ],
+           "key": "/works/OL9257967W",
+           "text": [
+            "OL20361228M",
+            "G. Coster",
+            "OL3313440A",
+            "Psycho-analysis for normal people",
+            "by G. Coster.",
+            "/works/OL9257967W",
+            "O.U.P."
+           ],
+           "publish_date": [
+            "1932"
+           ],
+           "author_key": [
+            "OL3313440A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The war on normal people",
+           "edition_key": [
+            "OL26960411M"
+           ],
+           "isbn": [
+            "9780316414241",
+            "0316414247"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL26960411M",
+            "9780316414241",
+            "0316414247",
+            "Yang, Andrew (Entrepreneur)",
+            "1029605633",
+            "OL7538020A",
+            "Government policy",
+            "Social aspects",
+            "Automation",
+            "Poverty",
+            "Economic conditions",
+            "Guaranteed annual income",
+            "Economic aspects",
+            "the truth about America's disappearing jobs and why universal basic income is our future",
+            "The war on normal people",
+            "/works/OL19747355W",
+            "Andrew Yang",
+            "2017918606",
+            "United States",
+            "2009-"
+           ],
+           "author_name": [
+            "Yang, Andrew (Entrepreneur)"
+           ],
+           "seed": [
+            "/books/OL26960411M",
+            "/works/OL19747355W",
+            "/subjects/guaranteed_annual_income",
+            "/subjects/government_policy",
+            "/subjects/economic_conditions",
+            "/subjects/social_aspects",
+            "/subjects/poverty",
+            "/subjects/economic_aspects",
+            "/subjects/automation",
+            "/subjects/place:united_states",
+            "/subjects/time:2009-",
+            "/authors/OL7538020A"
+           ],
+           "oclc": [
+            "1029605633"
+           ],
+           "author_key": [
+            "OL7538020A"
+           ],
+           "subject": [
+            "Government policy",
+            "Social aspects",
+            "Automation",
+            "Poverty",
+            "Economic conditions",
+            "Guaranteed annual income",
+            "Economic aspects"
+           ],
+           "title": "The war on normal people",
+           "first_publish_year": 2018,
+           "type": "work",
+           "ebook_count_i": 0,
+           "edition_count": 1,
+           "key": "/works/OL19747355W",
+           "publish_date": [
+            "2018"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "2017918606"
+           ],
+           "last_modified_i": 1558686135,
+           "publish_year": [
+            2018
+           ],
+           "place": [
+            "United States"
+           ],
+           "time": [
+            "2009-"
+           ]
+          },
+          {
+           "title_suggest": "Minor mental maladjustments in normal people",
+           "edition_key": [
+            "OL16760578M",
+            "OL13525978M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL16760578M",
+            "OL13525978M",
+            "Wallin, J. E. Wallace",
+            "1097429",
+            "OL2098374A",
+            "based on original autobiographies of personality maladjustments.",
+            "based on original autobiographies of personality maladjustments, a casebook for the use of students of mental hygiene, psychology, education, child development, sociology, and the formation of personality traits.",
+            "Minor mental maladjustments in normal people",
+            "A casebook for the use of students of mental hygiene, psychology, education, child development, sociology, and the formation of personality traits, by J. E. Wallace Wallin.",
+            "Mental health",
+            "Psychoanalysis",
+            "Personality disorders",
+            "/works/OL174303W",
+            "Duke University Press",
+            "39023514"
+           ],
+           "author_name": [
+            "Wallin, J. E. Wallace"
+           ],
+           "seed": [
+            "/books/OL16760578M",
+            "/books/OL13525978M",
+            "/works/OL174303W",
+            "/subjects/mental_health",
+            "/subjects/psychoanalysis",
+            "/subjects/personality_disorders",
+            "/authors/OL2098374A"
+           ],
+           "oclc": [
+            "1097429"
+           ],
+           "author_key": [
+            "OL2098374A"
+           ],
+           "subject": [
+            "Mental health",
+            "Psychoanalysis",
+            "Personality disorders"
+           ],
+           "title": "Minor mental maladjustments in normal people",
+           "publish_date": [
+            "1939"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Durham, N.C",
+            "Durham, N. C"
+           ],
+           "edition_count": 2,
+           "key": "/works/OL174303W",
+           "publisher": [
+            "Duke University Press"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "39023514"
+           ],
+           "last_modified_i": 1264970965,
+           "publish_year": [
+            1939
+           ],
+           "first_publish_year": 1939
+          },
+          {
+           "title_suggest": "About Ourselves Psychology for Normal People",
+           "edition_key": [
+            "OL11764505M"
+           ],
+           "cover_i": 2789106,
+           "isbn": [
+            "141793882X",
+            "9781417938827"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL11764505M",
+            "141793882X",
+            "9781417938827",
+            "H. A. Overstreet",
+            "OL1233086A",
+            "About Ourselves Psychology for Normal People",
+            "/works/OL7210078W",
+            "Kessinger Publishing",
+            "Harry A. Overstreet",
+            "Harry Allen Overstreet",
+            "Overstreet                   Ha",
+            "H.A. Overstreet",
+            "Overstreet, Harry Allen, 1875-1960.",
+            "H A. Overstreet",
+            "H.A Overstreet"
+           ],
+           "author_name": [
+            "H. A. Overstreet"
+           ],
+           "seed": [
+            "/books/OL11764505M",
+            "/works/OL7210078W",
+            "/authors/OL1233086A"
+           ],
+           "author_key": [
+            "OL1233086A"
+           ],
+           "title": "About Ourselves Psychology for Normal People",
+           "publish_date": [
+            "July 26, 2004"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "edition_count": 1,
+           "key": "/works/OL7210078W",
+           "id_goodreads": [
+            "1746716"
+           ],
+           "publisher": [
+            "Kessinger Publishing"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1354997359,
+           "author_alternative_name": [
+            "Harry A. Overstreet",
+            "Harry Allen Overstreet",
+            "Overstreet                   Ha",
+            "H.A. Overstreet",
+            "Overstreet, Harry Allen, 1875-1960.",
+            "H A. Overstreet",
+            "H.A Overstreet"
+           ],
+           "cover_edition_key": "OL11764505M",
+           "publish_year": [
+            2004
+           ],
+           "first_publish_year": 2004
+          },
+          {
+           "title_suggest": "Normal people do the craziest things",
+           "edition_key": [
+            "OL22695833M"
+           ],
+           "isbn": [
+            "0736924787",
+            "9780736924788"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL22695833M",
+            "0736924787",
+            "9780736924788",
+            "Hawkins, David",
+            "277086133",
+            "OL1429296A",
+            "Normal people do the craziest things",
+            "David Hawkins.",
+            "Self-acceptance",
+            "Mental health",
+            "Religious aspects of Self-acceptance",
+            "Religious aspects of Mental health",
+            "Christianity",
+            "/works/OL5830710W",
+            "Harvest House Publishers",
+            "2008049428"
+           ],
+           "author_name": [
+            "Hawkins, David"
+           ],
+           "seed": [
+            "/books/OL22695833M",
+            "/works/OL5830710W",
+            "/subjects/christianity",
+            "/subjects/mental_health",
+            "/subjects/religious_aspects_of_mental_health",
+            "/subjects/religious_aspects_of_self-acceptance",
+            "/subjects/self-acceptance",
+            "/authors/OL1429296A"
+           ],
+           "oclc": [
+            "277086133"
+           ],
+           "author_key": [
+            "OL1429296A"
+           ],
+           "subject": [
+            "Self-acceptance",
+            "Mental health",
+            "Religious aspects of Self-acceptance",
+            "Religious aspects of Mental health",
+            "Christianity"
+           ],
+           "title": "Normal people do the craziest things",
+           "publish_date": [
+            "2009"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Eugene, Or"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL5830710W",
+           "id_goodreads": [
+            "6691733"
+           ],
+           "publisher": [
+            "Harvest House Publishers"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "2008049428"
+           ],
+           "last_modified_i": 1304103262,
+           "id_librarything": [
+            "9568714"
+           ],
+           "publish_year": [
+            2009
+           ],
+           "first_publish_year": 2009
+          },
+          {
+           "title_suggest": "Why Normal People Do Some Crazy Things",
+           "publisher": [
+            "Hargrove Pr"
+           ],
+           "cover_i": 9116604,
+           "id_amazon": [
+            "0981934307"
+           ],
+           "isbn": [
+            "0981934307",
+            "9780981934303"
+           ],
+           "has_fulltext": false,
+           "title": "Why Normal People Do Some Crazy Things",
+           "edition_key": [
+            "OL27674869M"
+           ],
+           "last_modified_i": 1573521068,
+           "edition_count": 1,
+           "author_name": [
+            "Kevin Davis"
+           ],
+           "cover_edition_key": "OL27674869M",
+           "seed": [
+            "/books/OL27674869M",
+            "/works/OL20450289W",
+            "/authors/OL2676720A"
+           ],
+           "first_publish_year": 2010,
+           "publish_year": [
+            2010
+           ],
+           "key": "/works/OL20450289W",
+           "text": [
+            "OL27674869M",
+            "0981934307",
+            "9780981934303",
+            "Kevin Davis",
+            "OL2676720A",
+            "Nine Fundamentals of Human Behavior",
+            "Why Normal People Do Some Crazy Things",
+            "/works/OL20450289W",
+            "Hargrove Pr"
+           ],
+           "publish_date": [
+            "May 01, 2010"
+           ],
+           "author_key": [
+            "OL2676720A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "About ourselves: Psychology for normal people",
+           "publisher": [
+            "W.W. Norton & Co"
+           ],
+           "cover_i": 8766944,
+           "id_amazon": [
+            "B000879894"
+           ],
+           "has_fulltext": false,
+           "title": "About ourselves: Psychology for normal people",
+           "edition_key": [
+            "OL27286224M"
+           ],
+           "last_modified_i": 1566875458,
+           "edition_count": 1,
+           "author_name": [
+            "H. A Overstreet"
+           ],
+           "cover_edition_key": "OL27286224M",
+           "seed": [
+            "/books/OL27286224M",
+            "/works/OL20106217W",
+            "/authors/OL7623249A"
+           ],
+           "first_publish_year": 1927,
+           "publish_year": [
+            1927
+           ],
+           "key": "/works/OL20106217W",
+           "text": [
+            "OL27286224M",
+            "H. A Overstreet",
+            "OL7623249A",
+            "About ourselves: Psychology for normal people",
+            "/works/OL20106217W",
+            "W.W. Norton & Co"
+           ],
+           "publish_date": [
+            "Aug 27, 1927"
+           ],
+           "author_key": [
+            "OL7623249A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Normal people don't live like this",
+           "edition_key": [
+            "OL23180660M"
+           ],
+           "cover_i": 6994202,
+           "isbn": [
+            "9780892553549",
+            "0892553545"
+           ],
+           "has_fulltext": true,
+           "text": [
+            "OL23180660M",
+            "9780892553549",
+            "0892553545",
+            "Dylan Landis",
+            "286439623",
+            "normalpeopledont00land",
+            "OL236663A",
+            "Accessible book",
+            "Protected DAISY",
+            "Nineteen seventies",
+            "Teenage girls",
+            "Fiction",
+            "Normal people don't live like this",
+            "/works/OL1969893W",
+            "Dylan Landis.",
+            "Persea Books",
+            "2009009599",
+            "New York (N.Y.)"
+           ],
+           "author_name": [
+            "Dylan Landis"
+           ],
+           "ia_loaded_id": [
+            "normalpeopledont00land"
+           ],
+           "seed": [
+            "/books/OL23180660M",
+            "/works/OL1969893W",
+            "/subjects/nineteen_seventies",
+            "/subjects/teenage_girls",
+            "/subjects/fiction",
+            "/subjects/place:new_york_(n.y.)",
+            "/authors/OL236663A"
+           ],
+           "oclc": [
+            "286439623"
+           ],
+           "ia": [
+            "normalpeopledont00land"
+           ],
+           "author_key": [
+            "OL236663A"
+           ],
+           "subject": [
+            "Accessible book",
+            "Protected DAISY",
+            "Nineteen seventies",
+            "Teenage girls",
+            "Fiction"
+           ],
+           "title": "Normal people don't live like this",
+           "lending_identifier_s": "normalpeopledont00land",
+           "ia_collection_s": "printdisabled;inlibrary;china;internetarchivebooks",
+           "printdisabled_s": "OL23180660M",
+           "type": "work",
+           "ebook_count_i": 1,
+           "publish_place": [
+            "New York, NY"
+           ],
+           "ia_box_id": [
+            "IA141909"
+           ],
+           "edition_count": 1,
+           "first_publish_year": 2009,
+           "key": "/works/OL1969893W",
+           "id_goodreads": [
+            "6139011"
+           ],
+           "public_scan_b": false,
+           "publisher": [
+            "Persea Books"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "2009009599"
+           ],
+           "last_modified_i": 1581611527,
+           "lending_edition_s": "OL23180660M",
+           "id_librarything": [
+            "8588615"
+           ],
+           "cover_edition_key": "OL23180660M",
+           "publish_year": [
+            2009
+           ],
+           "publish_date": [
+            "2009"
+           ],
+           "place": [
+            "New York (N.Y.)"
+           ]
+          },
+          {
+           "title_suggest": "Normal trade relations for the People's Republic of China",
+           "edition_key": [
+            "OL22412862M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL22412862M",
+            "United States",
+            "OL18485A",
+            "Normal trade relations for the People's Republic of China",
+            "Commercial policy",
+            "Foreign economic relations",
+            "World Trade Organization",
+            "Favored nation clause",
+            "/works/OL430505W",
+            "Supt. of Docs., U.S. G.P.O., distributor",
+            "U.S. G.P.O.",
+            "Act to Authorize Extension of Nondiscriminatory Treatment (Normal Trade Relations Treatment) to the People's Republic of China, and to Establish a Framework for Relations between the United States and the People's Republic of China",
+            "Normal trade relations for the People's Republic of China.",
+            "U.S. Government",
+            "Us Government",
+            "USA",
+            "US",
+            "United States",
+            "US GOVERNMENT",
+            "United States.",
+            "US Government",
+            "America",
+            "United States",
+            "China"
+           ],
+           "author_name": [
+            "United States"
+           ],
+           "seed": [
+            "/books/OL22412862M",
+            "/works/OL430505W",
+            "/subjects/commercial_policy",
+            "/subjects/world_trade_organization",
+            "/subjects/foreign_economic_relations",
+            "/subjects/favored_nation_clause",
+            "/subjects/place:united_states",
+            "/subjects/place:china",
+            "/authors/OL18485A"
+           ],
+           "author_key": [
+            "OL18485A"
+           ],
+           "subject": [
+            "Commercial policy",
+            "Foreign economic relations",
+            "World Trade Organization",
+            "Favored nation clause"
+           ],
+           "title": "Normal trade relations for the People's Republic of China",
+           "first_publish_year": 2000,
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "[Washington, D.C"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL430505W",
+           "publisher": [
+            "Supt. of Docs., U.S. G.P.O., distributor",
+            "U.S. G.P.O."
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1280851700,
+           "author_alternative_name": [
+            "U.S. Government",
+            "Us Government",
+            "USA",
+            "US",
+            "United States",
+            "US GOVERNMENT",
+            "United States.",
+            "US Government",
+            "America"
+           ],
+           "publish_year": [
+            2000
+           ],
+           "place": [
+            "United States",
+            "China"
+           ],
+           "publish_date": [
+            "2000"
+           ]
+          },
+          {
+           "title_suggest": "The occurrence of Babinski's sign in normal people during sleep",
+           "publish_place": [
+            "[s.l"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL18519695M"
+           ],
+           "last_modified_i": 1264253173,
+           "title": "The occurrence of Babinski's sign in normal people during sleep",
+           "subject": [
+            "Reflexes"
+           ],
+           "author_name": [
+            "Robert Dawson Rudolf"
+           ],
+           "person": [
+            "J. Babinski (1857-1932)"
+           ],
+           "seed": [
+            "/books/OL18519695M",
+            "/works/OL12441096W",
+            "/subjects/reflexes",
+            "/subjects/person:j._babinski_(1857-1932)",
+            "/authors/OL5490824A"
+           ],
+           "first_publish_year": 1906,
+           "publish_year": [
+            1906
+           ],
+           "key": "/works/OL12441096W",
+           "text": [
+            "OL18519695M",
+            "Robert Dawson Rudolf",
+            "OL5490824A",
+            "The occurrence of Babinski's sign in normal people during sleep",
+            "by Robert D. Rudolf.",
+            "Reflexes",
+            "/works/OL12441096W",
+            "Sine nomine",
+            "J. Babinski (1857-1932)"
+           ],
+           "publisher": [
+            "Sine nomine"
+           ],
+           "publish_date": [
+            "1906"
+           ],
+           "author_key": [
+            "OL5490824A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Permanent Normalized Trade Relations with the People's Republic of China",
+           "publisher": [
+            "Government Printing Office"
+           ],
+           "subtitle": "Hearing Before the Committee on Commerce, Science, and Transportation, Unite",
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "title": "Permanent Normalized Trade Relations with the People's Republic of China",
+           "edition_key": [
+            "OL10115808M"
+           ],
+           "last_modified_i": 1280852155,
+           "edition_count": 1,
+           "isbn": [
+            "0160707315",
+            "9780160707315"
+           ],
+           "author_alternative_name": [
+            "U.S. Government",
+            "Us Government",
+            "USA",
+            "US",
+            "United States",
+            "US GOVERNMENT",
+            "United States.",
+            "US Government",
+            "America"
+           ],
+           "publish_year": [
+            2003
+           ],
+           "seed": [
+            "/books/OL10115808M",
+            "/works/OL431542W",
+            "/authors/OL18485A"
+           ],
+           "first_publish_year": 2003,
+           "author_name": [
+            "United States"
+           ],
+           "key": "/works/OL431542W",
+           "text": [
+            "OL10115808M",
+            "Hearing Before the Committee on Commerce, Science, and Transportation, Unite",
+            "United States",
+            "0160707315",
+            "9780160707315",
+            "OL18485A",
+            "Permanent Normalized Trade Relations with the People's Republic of China",
+            "/works/OL431542W",
+            "Government Printing Office",
+            "U.S. Government",
+            "Us Government",
+            "USA",
+            "US",
+            "United States",
+            "US GOVERNMENT",
+            "United States.",
+            "US Government",
+            "America"
+           ],
+           "publish_date": [
+            "January 2003"
+           ],
+           "author_key": [
+            "OL18485A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Permanent normalized trade relations with the People's Republic of China",
+           "edition_key": [
+            "OL15541410M"
+           ],
+           "isbn": [
+            "0160707315",
+            "9780160707315"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL15541410M",
+            "0160707315",
+            "9780160707315",
+            "United States. Congress. Senate. Committee on Commerce, Science, and Transportation.",
+            "53210607",
+            "OL51624A",
+            "hearing before the Committee on Commerce, Science, and Transportation, United States Senate, One Hundred Sixth Congress, second session, April 11, 2000",
+            "Permanent normalized trade relations with the People's Republic of China",
+            "Commercial policy",
+            "Foreign economic relations",
+            "World Trade Organization",
+            "/works/OL10842605W",
+            "For sale by the Supt. of Docs., U.S. G.P.O.",
+            "U.S. G.P.O.",
+            "United States. Congress. Senate. Committee on Commerce, Science and Transportation.",
+            "United States. Congress. Senate. Committee on Commerce, Science, and Transporation.",
+            "United States. Congress. Senate. Committee on Commerce, Science, and Transportation",
+            "United States. Congress. Senate Committee on Commerce, Science, and Transportation",
+            "United States. Congress. Senate. Committee on Commerce, Science, and transportation.",
+            "United States",
+            "China"
+           ],
+           "author_name": [
+            "United States. Congress. Senate. Committee on Commerce, Science, and Transportation."
+           ],
+           "seed": [
+            "/books/OL15541410M",
+            "/works/OL10842605W",
+            "/subjects/commercial_policy",
+            "/subjects/foreign_economic_relations",
+            "/subjects/world_trade_organization",
+            "/subjects/place:china",
+            "/subjects/place:united_states",
+            "/authors/OL51624A"
+           ],
+           "oclc": [
+            "53210607"
+           ],
+           "author_key": [
+            "OL51624A"
+           ],
+           "subject": [
+            "Commercial policy",
+            "Foreign economic relations",
+            "World Trade Organization"
+           ],
+           "title": "Permanent normalized trade relations with the People's Republic of China",
+           "publish_date": [
+            "2003"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Washington"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL10842605W",
+           "publisher": [
+            "For sale by the Supt. of Docs., U.S. G.P.O.",
+            "U.S. G.P.O."
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1335964630,
+           "author_alternative_name": [
+            "United States. Congress. Senate. Committee on Commerce, Science and Transportation.",
+            "United States. Congress. Senate. Committee on Commerce, Science, and Transporation.",
+            "United States. Congress. Senate. Committee on Commerce, Science, and Transportation",
+            "United States. Congress. Senate Committee on Commerce, Science, and Transportation",
+            "United States. Congress. Senate. Committee on Commerce, Science, and transportation."
+           ],
+           "publish_year": [
+            2003
+           ],
+           "first_publish_year": 2003,
+           "place": [
+            "United States",
+            "China"
+           ]
+          },
+          {
+           "title_suggest": "Normally I never touch it: people at parties",
+           "edition_key": [
+            "OL5675960M"
+           ],
+           "isbn": [
+            "0713802243",
+            "9780713802245"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL5675960M",
+            "0713802243",
+            "9780713802245",
+            "Alex Graham",
+            "467810",
+            "OL1678956A",
+            "Normally I never touch it: people at parties",
+            "[by] Graham.",
+            "Caricatures and cartoons",
+            "Parties",
+            "/works/OL6383566W",
+            "Bles",
+            "68139722"
+           ],
+           "author_name": [
+            "Alex Graham"
+           ],
+           "seed": [
+            "/books/OL5675960M",
+            "/works/OL6383566W",
+            "/subjects/caricatures_and_cartoons",
+            "/subjects/parties",
+            "/authors/OL1678956A"
+           ],
+           "oclc": [
+            "467810"
+           ],
+           "author_key": [
+            "OL1678956A"
+           ],
+           "subject": [
+            "Caricatures and cartoons",
+            "Parties"
+           ],
+           "title": "Normally I never touch it: people at parties",
+           "publish_date": [
+            "1968"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "London"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL6383566W",
+           "id_goodreads": [
+            "1512676"
+           ],
+           "publisher": [
+            "Bles"
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "68139722"
+           ],
+           "last_modified_i": 1303901404,
+           "id_librarything": [
+            "7031663"
+           ],
+           "publish_year": [
+            1968
+           ],
+           "first_publish_year": 1968
+          },
+          {
+           "title_suggest": "Normalizing relations with the People's Republic of China",
+           "publish_place": [
+            "[Baltimore]"
+           ],
+           "has_fulltext": false,
+           "edition_count": 1,
+           "edition_key": [
+            "OL26565934M"
+           ],
+           "last_modified_i": 1542433229,
+           "title": "Normalizing relations with the People's Republic of China",
+           "subject": [
+            "Foreigh relations",
+            "Foreign relations"
+           ],
+           "author_name": [
+            "Hungdah Chiu"
+           ],
+           "seed": [
+            "/books/OL26565934M",
+            "/works/OL17976548W",
+            "/subjects/foreigh_relations",
+            "/subjects/foreign_relations",
+            "/subjects/place:united_states",
+            "/subjects/place:china",
+            "/authors/OL629245A"
+           ],
+           "place": [
+            "United States",
+            "China"
+           ],
+           "key": "/works/OL17976548W",
+           "text": [
+            "OL26565934M",
+            "Hungdah Chiu",
+            "OL629245A",
+            "Foreigh relations",
+            "Foreign relations",
+            "problems, analysis and documents",
+            "Normalizing relations with the People's Republic of China",
+            "edited by  Hungdah Chiu ; with contribution by G. J. Sigur ... [et al.]. --",
+            "/works/OL17976548W",
+            "School of Law, University of Maryland",
+            "United States",
+            "China"
+           ],
+           "publisher": [
+            "School of Law, University of Maryland"
+           ],
+           "author_key": [
+            "OL629245A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "How leisure beliefs relate to attitudes toward the normalization principle as perceived by service providers for people with mental retardation",
+           "edition_key": [
+            "OL17789233M",
+            "OL17699364M",
+            "OL13552714M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 3,
+           "oclc": [
+            "29235053"
+           ],
+           "last_modified_i": 1344929888,
+           "title": "How leisure beliefs relate to attitudes toward the normalization principle as perceived by service providers for people with mental retardation",
+           "subject": [
+            "Mental health personnel",
+            "Recreation",
+            "Philosophy",
+            "Leisure",
+            "People with mental disabilities",
+            "Services for",
+            "Mentally handicapped"
+           ],
+           "author_name": [
+            "Robert John Neumayer"
+           ],
+           "seed": [
+            "/books/OL17789233M",
+            "/books/OL17699364M",
+            "/books/OL13552714M",
+            "/works/OL10352618W",
+            "/subjects/philosophy",
+            "/subjects/people_with_mental_disabilities",
+            "/subjects/mental_health_personnel",
+            "/subjects/recreation",
+            "/subjects/services_for",
+            "/subjects/leisure",
+            "/subjects/mentally_handicapped",
+            "/authors/OL4284909A"
+           ],
+           "first_publish_year": 1993,
+           "publish_year": [
+            1993
+           ],
+           "key": "/works/OL10352618W",
+           "text": [
+            "OL17789233M",
+            "OL17699364M",
+            "OL13552714M",
+            "Robert John Neumayer",
+            "29235053",
+            "OL4284909A",
+            "How leisure beliefs relate to attitudes toward the normalization principle as perceived by service providers for people with mental retardation",
+            "by Robert John Neumayer.",
+            "Mental health personnel",
+            "Recreation",
+            "Philosophy",
+            "Leisure",
+            "People with mental disabilities",
+            "Services for",
+            "Mentally handicapped",
+            "/works/OL10352618W"
+           ],
+           "publish_date": [
+            "1993"
+           ],
+           "author_key": [
+            "OL4284909A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "How to Make People Think You Are Normal (Truth about Life)",
+           "edition_key": [
+            "OL8702604M"
+           ],
+           "cover_i": 931755,
+           "isbn": [
+            "9781885027146",
+            "1885027141"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL8702604M",
+            "9781885027146",
+            "1885027141",
+            "Ben Goode",
+            "OL3068084A",
+            "How to Make People Think You Are Normal (Truth about Life)",
+            "/works/OL8902465W",
+            "Apricot Press",
+            "What is normal?"
+           ],
+           "author_name": [
+            "Ben Goode"
+           ],
+           "seed": [
+            "/books/OL8702604M",
+            "/works/OL8902465W",
+            "/authors/OL3068084A"
+           ],
+           "author_key": [
+            "OL3068084A"
+           ],
+           "title": "How to Make People Think You Are Normal (Truth about Life)",
+           "publish_date": [
+            "April 20, 2002"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "edition_count": 1,
+           "key": "/works/OL8902465W",
+           "id_goodreads": [
+            "160356"
+           ],
+           "publisher": [
+            "Apricot Press"
+           ],
+           "language": [
+            "eng"
+           ],
+           "last_modified_i": 1281426819,
+           "id_librarything": [
+            "2394414"
+           ],
+           "cover_edition_key": "OL8702604M",
+           "first_sentence": [
+            "What is normal?"
+           ],
+           "publish_year": [
+            2002
+           ],
+           "first_publish_year": 2002
+          },
+          {
+           "title_suggest": "Normalization-Based Guidance, Education and Supports for Families of Handicapped People",
+           "publisher": [
+            "Fitzhenry & Whiteside Ltd"
+           ],
+           "isbn": [
+            "0919648355",
+            "9780919648357"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL11443037M"
+           ],
+           "last_modified_i": 1265254614,
+           "title": "Normalization-Based Guidance, Education and Supports for Families of Handicapped People",
+           "author_name": [
+            "Wolf Wolfensberger"
+           ],
+           "seed": [
+            "/books/OL11443037M",
+            "/works/OL2244086W",
+            "/authors/OL290593A"
+           ],
+           "first_publish_year": 1983,
+           "publish_year": [
+            1983
+           ],
+           "key": "/works/OL2244086W",
+           "text": [
+            "OL11443037M",
+            "0919648355",
+            "9780919648357",
+            "Wolf Wolfensberger",
+            "OL290593A",
+            "Normalization-Based Guidance, Education and Supports for Families of Handicapped People",
+            "/works/OL2244086W",
+            "Fitzhenry & Whiteside Ltd"
+           ],
+           "publish_date": [
+            "May 1983"
+           ],
+           "author_key": [
+            "OL290593A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Memory, emotion, and skin conductance responses in young and elderly normal and memory-impaired people",
+           "edition_key": [
+            "OL14748071M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1260843576,
+           "title": "Memory, emotion, and skin conductance responses in young and elderly normal and memory-impaired people",
+           "author_name": [
+            "Mary Adele Rees-Nishio"
+           ],
+           "seed": [
+            "/books/OL14748071M",
+            "/works/OL11207125W",
+            "/authors/OL4686109A"
+           ],
+           "first_publish_year": 1984,
+           "publish_year": [
+            1984
+           ],
+           "key": "/works/OL11207125W",
+           "text": [
+            "OL14748071M",
+            "Mary Adele Rees-Nishio",
+            "OL4686109A",
+            "Memory, emotion, and skin conductance responses in young and elderly normal and memory-impaired people",
+            "/works/OL11207125W",
+            "Memory, emotion, and skin conductance responses in young and elderly normal and memory-impaired people."
+           ],
+           "publish_date": [
+            "1984"
+           ],
+           "author_key": [
+            "OL4686109A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The psychology of normal people [by] Joseph Tiffin, Frederic B. Knight and Eston Jackson Asher",
+           "publish_place": [
+            "Boston"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL20801825M"
+           ],
+           "last_modified_i": 1291427060,
+           "publisher": [
+            "Heath"
+           ],
+           "title": "The psychology of normal people [by] Joseph Tiffin, Frederic B. Knight and Eston Jackson Asher",
+           "subject": [
+            "Psychology"
+           ],
+           "author_name": [
+            "Joseph Tiffin"
+           ],
+           "seed": [
+            "/books/OL20801825M",
+            "/works/OL5273393W",
+            "/subjects/psychology",
+            "/authors/OL1193608A"
+           ],
+           "first_publish_year": 1946,
+           "publish_year": [
+            1946
+           ],
+           "key": "/works/OL5273393W",
+           "text": [
+            "OL20801825M",
+            "Joseph Tiffin",
+            "Asher, Eston Jackson, 1901-",
+            "Josey, Charles Conant, 1893-",
+            "Knight, Frederic Butterfield, 1891-",
+            "OL1193608A",
+            "The psychology of normal people [by] Joseph Tiffin, Frederic B. Knight and Eston Jackson Asher",
+            "Psychology",
+            "/works/OL5273393W",
+            "Heath",
+            "The psychology of normal people [by] Joseph Tiffin, Frederic B. Knight and Eston Jackson Asher."
+           ],
+           "contributor": [
+            "Asher, Eston Jackson, 1901-",
+            "Josey, Charles Conant, 1893-",
+            "Knight, Frederic Butterfield, 1891-"
+           ],
+           "publish_date": [
+            "1946"
+           ],
+           "author_key": [
+            "OL1193608A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Normalization of relations with the People's Republic of China--practical implications",
+           "edition_key": [
+            "OL4373303M"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL4373303M",
+            "United States. Congress. House. Committee on International Relations. Subcommittee on Asian and Pacific Affairs.",
+            "OL1640951A",
+            "hearings before the Subcommittee on Asian and Pacific Affairs of the Committee on International Relations, Ninety-fifth Congress, first session.",
+            "Normalization of relations with the People's Republic of China--practical implications",
+            "Foreign relations",
+            "/works/OL6290517W",
+            "U.S. Govt. Print. Off.",
+            "78600858",
+            "United States",
+            "China"
+           ],
+           "author_name": [
+            "United States. Congress. House. Committee on International Relations. Subcommittee on Asian and Pacific Affairs."
+           ],
+           "seed": [
+            "/books/OL4373303M",
+            "/works/OL6290517W",
+            "/subjects/foreign_relations",
+            "/subjects/place:china",
+            "/subjects/place:united_states",
+            "/authors/OL1640951A"
+           ],
+           "author_key": [
+            "OL1640951A"
+           ],
+           "subject": [
+            "Foreign relations"
+           ],
+           "title": "Normalization of relations with the People's Republic of China--practical implications",
+           "first_publish_year": 1977,
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Washington"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL6290517W",
+           "publisher": [
+            "U.S. Govt. Print. Off."
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "78600858"
+           ],
+           "last_modified_i": 1291528527,
+           "publish_year": [
+            1977
+           ],
+           "place": [
+            "United States",
+            "China"
+           ],
+           "publish_date": [
+            "1977"
+           ]
+          },
+          {
+           "title_suggest": "Written comments on the extension of normal trade relations to the Lao People's Democratic Republic",
+           "edition_key": [
+            "OL6808706M"
+           ],
+           "isbn": [
+            "0160596602",
+            "9780160596605"
+           ],
+           "has_fulltext": false,
+           "text": [
+            "OL6808706M",
+            "0160596602",
+            "9780160596605",
+            "United States. Congress. House. Committee on Ways and Means. Subcommittee on Trade",
+            "United States. Congress. House. Committee on Ways and Means. Subcommittee on Trade.",
+            "43037987",
+            "OL7141214A",
+            "Commercial treaties",
+            "Favored nation clause",
+            "Written comments on the extension of normal trade relations to the Lao People's Democratic Republic",
+            "/works/OL19131076W",
+            "Subcommittee on Trade of the Committee on Ways and Means, U.S. House of Representatives.",
+            "For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office",
+            "U.S. G.P.O.",
+            "Extension of normal trade relations to the Lao People's Democratic Republic",
+            "00274009",
+            "United States",
+            "Laos"
+           ],
+           "author_name": [
+            "United States. Congress. House. Committee on Ways and Means. Subcommittee on Trade"
+           ],
+           "seed": [
+            "/books/OL6808706M",
+            "/works/OL19131076W",
+            "/subjects/commercial_treaties",
+            "/subjects/favored_nation_clause",
+            "/subjects/place:united_states",
+            "/subjects/place:laos",
+            "/authors/OL7141214A"
+           ],
+           "oclc": [
+            "43037987"
+           ],
+           "contributor": [
+            "United States. Congress. House. Committee on Ways and Means. Subcommittee on Trade."
+           ],
+           "author_key": [
+            "OL7141214A"
+           ],
+           "subject": [
+            "Commercial treaties",
+            "Favored nation clause"
+           ],
+           "title": "Written comments on the extension of normal trade relations to the Lao People's Democratic Republic",
+           "publish_date": [
+            "1999"
+           ],
+           "type": "work",
+           "ebook_count_i": 0,
+           "publish_place": [
+            "Washington, DC"
+           ],
+           "edition_count": 1,
+           "key": "/works/OL19131076W",
+           "publisher": [
+            "For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office",
+            "U.S. G.P.O."
+           ],
+           "language": [
+            "eng"
+           ],
+           "lccn": [
+            "00274009"
+           ],
+           "last_modified_i": 1552224761,
+           "publish_year": [
+            1999
+           ],
+           "first_publish_year": 1999,
+           "place": [
+            "United States",
+            "Laos"
+           ]
+          },
+          {
+           "title_suggest": "Peasants, hegemony and the politics of \"normal times\": the case of the Republican People's Party and the Democratic Party, Turkey",
+           "edition_key": [
+            "OL16664860M"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "last_modified_i": 1260848234,
+           "title": "Peasants, hegemony and the politics of \"normal times\": the case of the Republican People's Party and the Democratic Party, Turkey",
+           "author_name": [
+            "Sedef Arat-Ko\u00e7"
+           ],
+           "seed": [
+            "/books/OL16664860M",
+            "/works/OL11880028W",
+            "/authors/OL5088362A"
+           ],
+           "first_publish_year": 1990,
+           "publish_year": [
+            1990
+           ],
+           "key": "/works/OL11880028W",
+           "text": [
+            "OL16664860M",
+            "Sedef Arat-Ko\u00e7",
+            "OL5088362A",
+            "Peasants, hegemony and the politics of \"normal times\": the case of the Republican People's Party and the Democratic Party, Turkey",
+            "/works/OL11880028W",
+            "Peasants, hegemony and the politics of \"normal times\": the case of the Republican People's Party and the Democratic Party, Turkey."
+           ],
+           "publish_date": [
+            "1990"
+           ],
+           "author_key": [
+            "OL5088362A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "Implicit memory for novel and novel associative information in patients with organic amnesia and in normal people",
+           "publish_place": [
+            "Manchester"
+           ],
+           "has_fulltext": false,
+           "language": [
+            "eng"
+           ],
+           "edition_count": 1,
+           "edition_key": [
+            "OL17165578M"
+           ],
+           "last_modified_i": 1264141763,
+           "title": "Implicit memory for novel and novel associative information in patients with organic amnesia and in normal people",
+           "publisher": [
+            "University of Manchester"
+           ],
+           "author_name": [
+            "Patricia Ann Gooding"
+           ],
+           "seed": [
+            "/books/OL17165578M",
+            "/works/OL12070397W",
+            "/authors/OL5221597A"
+           ],
+           "first_publish_year": 1996,
+           "publish_year": [
+            1996
+           ],
+           "key": "/works/OL12070397W",
+           "text": [
+            "OL17165578M",
+            "Patricia Ann Gooding",
+            "University of Manchester. Department of Psychology.",
+            "OL5221597A",
+            "Implicit memory for novel and novel associative information in patients with organic amnesia and in normal people",
+            "/works/OL12070397W",
+            "University of Manchester",
+            "Implicit memory for novel and novel associative information in patients with organic amnesia and in normal people."
+           ],
+           "contributor": [
+            "University of Manchester. Department of Psychology."
+           ],
+           "publish_date": [
+            "1996"
+           ],
+           "author_key": [
+            "OL5221597A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "People Should Stop Expecting Normal From Me, We All Know Its Never Going To Happen: Maintenance Log Book",
+           "publisher": [
+            "Independently published"
+           ],
+           "cover_i": 8677459,
+           "isbn": [
+            "1094913138",
+            "9781094913131"
+           ],
+           "has_fulltext": false,
+           "title": "People Should Stop Expecting Normal From Me, We All Know Its Never Going To Happen: Maintenance Log Book",
+           "edition_key": [
+            "OL27062678M"
+           ],
+           "last_modified_i": 1562253037,
+           "edition_count": 1,
+           "author_name": [
+            "Jeryx Publishing"
+           ],
+           "cover_edition_key": "OL27062678M",
+           "seed": [
+            "/books/OL27062678M",
+            "/works/OL19875212W",
+            "/authors/OL7546088A"
+           ],
+           "first_publish_year": 2019,
+           "publish_year": [
+            2019
+           ],
+           "key": "/works/OL19875212W",
+           "text": [
+            "OL27062678M",
+            "1094913138",
+            "9781094913131",
+            "Jeryx Publishing",
+            "OL7546088A",
+            "People Should Stop Expecting Normal From Me, We All Know Its Never Going To Happen: Maintenance Log Book",
+            "/works/OL19875212W",
+            "Independently published"
+           ],
+           "publish_date": [
+            "Apr 17, 2019"
+           ],
+           "author_key": [
+            "OL7546088A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          },
+          {
+           "title_suggest": "The War on Normal People: The Truth About America's Disappearing Jobs and Why Universal Basic Income Is Our Future",
+           "publisher": [
+            "Hachette Books"
+           ],
+           "isbn": [
+            "0316414212",
+            "978-0316414210"
+           ],
+           "has_fulltext": false,
+           "edition_count": 1,
+           "edition_key": [
+            "OL27911564M"
+           ],
+           "last_modified_i": 1581481141,
+           "title": "The War on Normal People: The Truth About America's Disappearing Jobs and Why Universal Basic Income Is Our Future",
+           "author_name": [
+            "Yang, Andrew (Entrepreneur)"
+           ],
+           "seed": [
+            "/books/OL27911564M",
+            "/works/OL20644427W",
+            "/authors/OL7538020A"
+           ],
+           "first_publish_year": 2018,
+           "publish_year": [
+            2018
+           ],
+           "key": "/works/OL20644427W",
+           "text": [
+            "OL27911564M",
+            "0316414212",
+            "978-0316414210",
+            "Yang, Andrew (Entrepreneur)",
+            "OL7538020A",
+            "The War on Normal People: The Truth About America's Disappearing Jobs and Why Universal Basic Income Is Our Future",
+            "/works/OL20644427W",
+            "Hachette Books"
+           ],
+           "publish_date": [
+            "2018"
+           ],
+           "author_key": [
+            "OL7538020A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          }
+         ]
+        }
+    http_version: null
+  recorded_at: Fri, 21 Feb 2020 18:22:56 GMT
+- request:
+    method: get
+    uri: https://api.nytimes.com/svc/books/v3/reviews.json?api-key=iKpqHY75q3291dfqsBnZA18cGqpi2IYN&title=normal%20people
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 21 Feb 2020 18:22:57 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Accept-Ranges:
+      - bytes
+      Via:
+      - 1.1 varnish
+      Age:
+      - '477'
+      X-Served-By:
+      - cache-dca17778-DCA
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      X-Timer:
+      - S1582309377.086536,VS0,VE1
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Content-Type, X-Forwarded-For, X-Prototype-Version, X-Requested-With
+      Access-Control-Expose-Headers:
+      - Content-Length, X-JSON
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","copyright":"Copyright (c) 2020 The New York Times Company.  All
+        Rights Reserved.","num_results":2,"results":[{"url":"https:\/\/www.nytimes.com\/2019\/04\/08\/books\/review-normal-people-sally-rooney.html","publication_dt":"2019-04-08","byline":"DWIGHT
+        GARNER","book_title":"Normal People","book_author":"Sally Rooney","summary":"Rooney\u2019s
+        second novel tracks two gifted but troubled teenagers across four years of
+        friendship and occasional romance.","uuid":"00000000-0000-0000-0000-000000000000","uri":"nyt:\/\/book\/00000000-0000-0000-0000-000000000000","isbn13":["9781984822178"]},{"url":"https:\/\/www.nytimes.com\/2019\/04\/15\/books\/review\/normal-people-sally-rooney.html","publication_dt":"2019-04-15","byline":"ANDREW
+        MARTIN","book_title":"Normal People","book_author":"Sally Rooney","summary":"Like
+        \u201cConversations With Friends,\u201d \u201cNormal People\u201d also traces
+        a young romance in Ireland.","uuid":"00000000-0000-0000-0000-000000000000","uri":"nyt:\/\/book\/00000000-0000-0000-0000-000000000000","isbn13":["9780735276475"]}]}'
+    http_version: null
+  recorded_at: Fri, 21 Feb 2020 18:22:57 GMT
+recorded_with: VCR 5.1.0

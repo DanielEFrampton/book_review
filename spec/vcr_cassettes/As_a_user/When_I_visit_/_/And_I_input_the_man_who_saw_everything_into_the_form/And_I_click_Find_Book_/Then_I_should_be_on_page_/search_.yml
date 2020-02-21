@@ -1,0 +1,166 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openlibrary.org/search.json?title=the%20man%20who%20saw%20everything
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Fri, 21 Feb 2020 18:24:07 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"SR 1 0.054 TT 0 0.056"'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+         "start": 0,
+         "num_found": 1,
+         "numFound": 1,
+         "docs": [
+          {
+           "title_suggest": "The Man Who Saw Everything",
+           "publisher": [
+            "Bloomsbury Publishing"
+           ],
+           "cover_i": 8918911,
+           "isbn": [
+            "1632869845",
+            "9781632869845"
+           ],
+           "has_fulltext": false,
+           "title": "The Man Who Saw Everything",
+           "edition_key": [
+            "OL27460450M"
+           ],
+           "last_modified_i": 1571153555,
+           "edition_count": 1,
+           "author_name": [
+            "Deborah Levy"
+           ],
+           "cover_edition_key": "OL27460450M",
+           "seed": [
+            "/books/OL27460450M",
+            "/works/OL20261821W",
+            "/authors/OL240271A"
+           ],
+           "first_publish_year": 2019,
+           "publish_year": [
+            2019
+           ],
+           "key": "/works/OL20261821W",
+           "text": [
+            "OL27460450M",
+            "1632869845",
+            "9781632869845",
+            "Deborah Levy",
+            "OL240271A",
+            "The Man Who Saw Everything",
+            "/works/OL20261821W",
+            "Bloomsbury Publishing"
+           ],
+           "publish_date": [
+            "2019"
+           ],
+           "author_key": [
+            "OL240271A"
+           ],
+           "type": "work",
+           "ebook_count_i": 0
+          }
+         ]
+        }
+    http_version: null
+  recorded_at: Fri, 21 Feb 2020 18:24:07 GMT
+- request:
+    method: get
+    uri: https://api.nytimes.com/svc/books/v3/reviews.json?api-key=iKpqHY75q3291dfqsBnZA18cGqpi2IYN&title=the%20man%20who%20saw%20everything
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 21 Feb 2020 18:24:07 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Accept-Ranges:
+      - bytes
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      X-Served-By:
+      - cache-dca17768-DCA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1582309448.798485,VS0,VE32
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, Content-Type, X-Forwarded-For, X-Prototype-Version, X-Requested-With
+      Access-Control-Expose-Headers:
+      - Content-Length, X-JSON
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","copyright":"Copyright (c) 2020 The New York Times Company.  All
+        Rights Reserved.","num_results":2,"results":[{"url":"https:\/\/www.nytimes.com\/2019\/10\/09\/books\/review-man-who-saw-everything-deborah-levy.html","publication_dt":"2019-10-09","byline":"PARUL
+        SEHGAL","book_title":"The Man Who Saw Everything","book_author":"Deborah Levy","summary":"\u201cThe
+        Man Who Saw Everything,\u201d which was longlisted for the Booker Prize, looks
+        at masculinity through the perspective of a young historian who sneers at
+        \u201cauthoritarian old men.\u201d","uuid":"00000000-0000-0000-0000-000000000000","uri":"nyt:\/\/book\/00000000-0000-0000-0000-000000000000","isbn13":["9781632869845"]},{"url":"https:\/\/www.nytimes.com\/2019\/10\/15\/books\/review\/the-man-who-saw-everything-deborah-levy.html","publication_dt":"2019-10-15","byline":"FERNANDA  EBERSTADT","book_title":"The
+        Man Who Saw Everything","book_author":"Deborah Levy","summary":"Deborah Levy\u2019s
+        latest novel, \u201cThe Man Who Saw Everything,\u201d experiments with time
+        travel, history and the endless complications of love.","uuid":"00000000-0000-0000-0000-000000000000","uri":"nyt:\/\/book\/00000000-0000-0000-0000-000000000000","isbn13":["9781632869845"]}]}'
+    http_version: null
+  recorded_at: Fri, 21 Feb 2020 18:24:07 GMT
+recorded_with: VCR 5.1.0
